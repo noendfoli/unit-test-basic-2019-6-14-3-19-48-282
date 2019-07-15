@@ -16,7 +16,6 @@ class ExpenseService {
                 if(project.getProjectName().equals("Project A")){
                     return EXPENSE_TYPE_A;
                 }
-
                 if(project.getProjectName().equals("Project B")){
                     return EXPENSE_TYPE_B;
                 }
